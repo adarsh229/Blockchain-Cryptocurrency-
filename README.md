@@ -7,14 +7,14 @@ To run the project:
      
 To Connect to peers: (run on different terminal window)
 
-        HTTP_PORT=3002  P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
+    HTTP_PORT=3002  P2P_PORT=5002 PEERS=ws://localhost:5001 npm run dev
     
     
 To See all blocks on the network:
 
     localhost:3001/blocks
     
-T mine a transaction:
+To mine a transaction:
 
     localhost:3001/mine-transaction
     
